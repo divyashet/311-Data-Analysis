@@ -24,23 +24,37 @@ From the 311 Service Request data analysis we could see that ‘Noise – Reside
 
 had the highest number of complaints i.e. around 1795446.
 
+
+![image](https://user-images.githubusercontent.com/53442631/128621985-ed014415-1e99-4528-8c8d-5b675e695274.png)
+
+
 The chart below represents the ‘Top 5 Zip Codes ‘ when it comes to number of complaints
 
 received. The highest complaint received is for the zip code 11226.
 
 
 
+![image](https://user-images.githubusercontent.com/53442631/128621994-0b2b06ac-9327-43e3-8543-e6d14fede622.png)
+
 
 
 Q1: The number of complaints per department
 
-\1. 10011 zip code
+1. 10011 zip code
+
+
+![image](https://user-images.githubusercontent.com/53442631/128621964-3e8d9538-b86b-4bf9-b9f5-df4e9ffac352.png)
+
 
 10011 zip code belongs to borough ‘Manhattan’. Agency NYPD received the highest number
 
 of complaints in Manhattan i.e., 26,951.
 
-\2. 11217 zip code
+2. 11217 zip code
+
+
+![image](https://user-images.githubusercontent.com/53442631/128621967-77822c6a-cb5b-4f8c-9a41-d7296a29be5f.png)
+
 
 11217 zip code belongs to borough ‘Brooklyn’. Here again the NYPD has received the
 
@@ -56,6 +70,7 @@ Manhattan and Bronx have a similar percentage 19.5 %, 18.5% respectively. The le
 
 impacted area among the boroughs is the Staten Island which is around 4.8%.
 
+![image](https://user-images.githubusercontent.com/53442631/128621974-43d7088d-2fd7-4ead-a047-74f550ff1362.png)
 
 
 
@@ -108,6 +123,9 @@ have minimal impact on other components in the system. The architecture comprise
 
 following components:
 
+![image](https://user-images.githubusercontent.com/53442631/128622019-4c511549-16ff-4bd3-b340-89b8d64a69db.png)
+
+
 **Cloud Storage**: This component provides the raw data which the system processes to get the
 
 expected result. Although represented as a single component for simplicity, it could be
@@ -138,10 +156,6 @@ analysis
 
 the Automation Tool component. This data can be used in historical data analytics. It is
 
-
-
-
-
 generally cost-effective to store a high volume of data than to process a high volume of data.
 
 Depending on the schema and volume requirements of the system, a big data source such as
@@ -164,7 +178,7 @@ components. Its capabilities also include the creation of dashboards to showcase
 
 pieces of information.
 
-User Interface
+** User Interface:**
 
 As indicated in the data visualization component of the system architecture user interface
 
@@ -178,9 +192,9 @@ visualization using charts. The users can easily filter data based on their pref
 
 multiple pieces of key information can be added on the dashboard.
 
-Monitoring, testing, and maintenance
+**Monitoring, testing, and maintenance:**
 
-
+![image](https://user-images.githubusercontent.com/53442631/128622046-1df21d78-33f8-4613-acd8-fd51cb369b53.png)
 
 
 
@@ -224,7 +238,7 @@ system to ensure that knowledge is captured and shared with a broader group for 
 
 stakeholders.
 
-Any security issues
+**Any security issues:**
 
 Any systems that deal with huge volume of data, should account for the security requirements
 
