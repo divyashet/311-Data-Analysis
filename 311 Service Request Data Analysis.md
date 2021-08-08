@@ -1,8 +1,8 @@
 ﻿
 
-311 Service Request Data Analysis
+**311 Service Request Data Analysis**
 
-Background
+**Background**
 
 The 311 system is used by New York city residents to report complaints related to non-
 
@@ -75,9 +75,9 @@ impacted area among the boroughs is the Staten Island which is around 4.8%.
 
 
 
-Part 2: Data Engineering
+**Part 2: Data Engineering **
 
-Assumption
+**Assumption**
 
 The challenging part with this large data set was to read the csv file and it was time consuming
 
@@ -115,7 +115,7 @@ the timelines for the solution delivery.
 
 
 
-System Architecture
+**System Architecture: **
 
 The system is designed in a modular format that way the changes in one component would
 
